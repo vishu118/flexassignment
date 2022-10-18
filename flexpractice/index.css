@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head{
+    display: flex;
+    justify-content: end;
+    padding: 40px;
+    font-family:  sans-serif;
+    
+  }
+
+
+
+
+.rightbar{
+    display: flex;
+    margin-left: 56.5%;
+    margin-right: 90px;
+    
+}
+
+.btn{
+    margin-left: 30px;
+    background-color: #ffff;
+    border: none;
+}
+
+.title{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+
+.content{
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(72, 72, 72);
+    word-spacing: 5px;
+   
+   
+    
+    
+    
+}
+
+
+.wrap{
+    display: flex;
+    background-color: #ededed;
+    padding: 100px;
+}
+
+.image{
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.subtitle{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 30px;
+}
+
+.template{
+    width: 350px;
+    height: 200px;
+    margin: 30px;
+    padding: 10px;
+}
+.painting{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.footerleft{
+    margin-left: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 30px;
+    background-color: #ededed;
+    color:#4b4c4b4d;
+    align-items: center;
+    font-size: large;
+}
+
+.footerright a{
+    font-size: 24px;
+    margin: 30px;
+    color: black;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+                   
+}
+
+footer .footerright a:hover{
+    background-color: grey;
+
+
+}
+
